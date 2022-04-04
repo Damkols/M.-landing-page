@@ -1,7 +1,7 @@
 import React from "react";
 import { BiMenu } from "react-icons/bi";
 import { BiX } from "react-icons/bi";
-import "./Navbar.css";
+import "./Navbar.scss";
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = React.useState(false);
